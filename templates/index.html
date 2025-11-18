@@ -44,6 +44,10 @@
         <button type="submit">Submit</button>
     </form>
 
+     <button type="button" onclick="window.location.href='{{ url_for("home") }}'">
+        Refresh
+    </button>
+    <br><br>
     <h2>Submissions</h2>
     {% if submissions %}
         <table>
