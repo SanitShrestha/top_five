@@ -1,4 +1,4 @@
-Sanit Shrestha and Nathan Grunkemeyer
+Sanit Shrestha
 
 # Top Five
 
