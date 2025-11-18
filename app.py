@@ -17,7 +17,7 @@ def home():
         # Validate that all inputs are filled
         if category and all(items):
             submissions.append({"category": category, "five": items})
-        return redirect("/")
+        return redirect(url_for("home"))
     return render_template("index.html", submissions=submissions)
 
 if __name__ == "__main__":
